@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body {
+  color: white;
+  background-color: #333;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,7 +37,21 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.container-watch{
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.watch-h,
+.watch-m,
+.watch-s {
+  position: absolute;
+  top: 0%;
+  left: 0%;
 }
